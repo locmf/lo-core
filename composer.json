@@ -1,5 +1,5 @@
 {
-  "name": "loveorigami/lo-core",
+  "name": "locmf/lo-core",
   "description": "Core for Lo-CMS",
   "type": "yii2-extension",
   "keywords": [
@@ -7,7 +7,7 @@
     "core",
     "cms"
   ],
-  "homepage": "https://github.com/loveorigami/lo-core",
+  "homepage": "https://github.com/locmf/lo-core",
   "time": "2015-08-08",
   "license": "MIT",
   "authors": [
