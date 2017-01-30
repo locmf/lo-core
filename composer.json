@@ -1,0 +1,68 @@
+{
+  "name": "loveorigami/lo-core",
+  "description": "Core for Lo-CMS",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "core",
+    "cms"
+  ],
+  "homepage": "https://github.com/loveorigami/lo-core",
+  "time": "2015-08-08",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Lukyanov",
+      "email": "loveorigami@mail.ru",
+      "homepage": "http://loveorigami.info",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/DevGroup-ru/yii2-jstree-widget.git"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": ">=2.0.8",
+	
+	"mihaildev/yii2-elfinder": "*",
+    "kartik-v/yii2-markdown": "dev-master",
+    "abeautifulsite/simpleimage":"~3.2",
+	"loveorigami/yii2-ckeditor": "*",
+	"loveorigami/yii2-modal-ajax": "*",
+    "loveorigami/yii2-icofont": "*",
+
+    "2amigos/yii2-selectize-widget": "~1.0",
+
+    "kartik-v/yii2-widget-depdrop": "@dev",
+    "kartik-v/yii2-widget-colorinput": "*",
+	"kartik-v/yii2-widget-datepicker": "@dev",
+    "kartik-v/yii2-widget-fileinput": "@dev",
+    "kartik-v/yii2-widget-rating": "*",
+    "kartik-v/yii2-widget-select2": "@dev",
+    "kartik-v/yii2-widget-touchspin": "*",
+	"kartik-v/yii2-field-range": "*",
+
+    "la-haute-societe/yii2-save-relations-behavior": "*",
+    "zelenin/yii2-slug-behavior": "~1.5.1",
+    "mongosoft/yii2-upload-behavior": "*",
+    "marciocamello/yii2-x-editable": "*",
+    "creocoder/yii2-nested-sets": "0.9.*",
+    "creocoder/yii2-taggable": "~2.0",
+    "rmrevin/yii2-fontawesome": "~2.15",
+    "voskobovich/yii2-linker-behavior": "*",
+    "devgroup/yii2-jstree-widget": "*",
+    "unclead/yii2-multiple-input": "~2.0",
+    
+	"bower-asset/jquery-number": "*",
+    "bower-asset/awesome-bootstrap-checkbox": "0.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "lo\\core\\": "src/"
+    }
+  }
+}
